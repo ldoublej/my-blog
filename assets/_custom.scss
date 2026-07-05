@@ -1,4 +1,144 @@
-/* You can add custom styles here. */
+/* ===== Landing Page Styles ===== */
 
-// @import "plugins/numbered";
-// @import "plugins/scrollbars";
+.book-hero {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+/* ---- Hero Banner ---- */
+.hero-banner {
+  text-align: center;
+  padding: 2rem 0 1.5rem;
+}
+
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+  border: none; /* override book theme's bottom border on h1 */
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: var(--gray-500, #6b7280);
+  line-height: 1.8;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* ---- Divider ---- */
+.hero-divider {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  border-radius: 2px;
+  margin: 2rem auto;
+  opacity: 0.6;
+}
+
+/* ---- Intro ---- */
+.hero-intro {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--body-font-color, #374151);
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero-intro p + p {
+  margin-top: 0.8rem;
+}
+
+/* ---- Project Cards ---- */
+.project-cards {
+  margin-top: 3rem;
+}
+
+.project-cards h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+/* ---- Individual Card ---- */
+.project-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  border-radius: 10px;
+  text-decoration: none !important;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  background: var(--body-background, #fff);
+}
+
+.project-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 2px 12px rgba(59, 130, 246, 0.12);
+  transform: translateY(-1px);
+}
+
+.card-icon {
+  flex-shrink: 0;
+  color: #3b82f6;
+  margin-top: 2px;
+}
+
+.card-body h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  border: none;
+}
+
+.card-desc {
+  font-size: 0.92rem;
+  color: var(--gray-500, #6b7280);
+  line-height: 1.65;
+  margin: 0 0 0.6rem;
+}
+
+.card-link {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #3b82f6;
+}
+
+.card-link-dimmed {
+  color: var(--gray-400, #9ca3af);
+}
+
+/* ---- Placeholder Card ---- */
+.card-placeholder {
+  opacity: 0.65;
+}
+
+.card-placeholder:hover {
+  border-color: var(--gray-200, #e5e7eb);
+  box-shadow: none;
+  transform: none;
+  cursor: default;
+}
+
+.card-placeholder .card-icon {
+  color: var(--gray-400, #9ca3af);
+}
+
+/* ---- Footer ---- */
+.hero-footer {
+  text-align: center;
+  font-size: 0.92rem;
+  color: var(--gray-400, #9ca3af);
+}
