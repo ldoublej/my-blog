@@ -27,49 +27,45 @@ layout: landing
 
 <section class="project-cards">
   <h2>📂 项目笔记</h2>
-
   <div class="card-grid">
-
-    <a class="project-card" href="/xv6/">
-      <div class="card-icon">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
-          <line x1="8" y1="21" x2="16" y2="21"/>
-          <line x1="12" y1="17" x2="12" y2="21"/>
-        </svg>
-      </div>
-      <div class="card-body">
-        <h3>xv6 · MIT 教学操作系统</h3>
-        <p class="card-desc">
-          从启动到文件系统，逐层拆解一个约 9000 行的 Unix V6 实现。
-          包含架构总览、学习路线图和各子系统的深度笔记。
-        </p>
-        <span class="card-link">
-          浏览笔记 →
-        </span>
-      </div>
-    </a>
-
-    <div class="project-card card-placeholder">
-      <div class="card-icon">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"/>
-          <line x1="12" y1="8" x2="12" y2="16"/>
-          <line x1="8" y1="12" x2="16" y2="12"/>
-        </svg>
-      </div>
-      <div class="card-body">
-        <h3>更多项目即将到来</h3>
-        <p class="card-desc">
-          计划覆盖分布式共识协议、编译器实现、数据库内核等领域。
-          如果你有推荐的阅读项目，欢迎交流。
-        </p>
-        <span class="card-link card-link-dimmed">
-          敬请期待
-        </span>
-      </div>
+  <a class="project-card" href="/xv6/">
+    <div class="card-icon">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+        <line x1="8" y1="21" x2="16" y2="21"/>
+        <line x1="12" y1="17" x2="12" y2="21"/>
+      </svg>
     </div>
-
+    <div class="card-body">
+      <h3>xv6 · MIT 教学操作系统</h3>
+      <p class="card-desc">
+        从启动到文件系统，逐层拆解一个约 9000 行的 Unix V6 实现。
+        包含架构总览、学习路线图和各子系统的深度笔记。
+      </p>
+      <span class="card-link">
+        浏览笔记 →
+      </span>
+    </div>
+  </a>
+  <div class="project-card card-placeholder">
+    <div class="card-icon">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8" x2="12" y2="16"/>
+        <line x1="8" y1="12" x2="16" y2="12"/>
+      </svg>
+    </div>
+    <div class="card-body">
+      <h3>更多项目即将到来</h3>
+      <p class="card-desc">
+        计划覆盖分布式共识协议、编译器实现、数据库内核等领域。
+        如果你有推荐的阅读项目，欢迎交流。
+      </p>
+      <span class="card-link card-link-dimmed">
+        敬请期待
+      </span>
+    </div>
+  </div>
   </div>
 </section>
 
